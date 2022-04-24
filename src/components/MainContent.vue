@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="grow flex flex-col mx-8 mb-6 md:mt-6 md:ml-6">
-          <span class="text-[1.2rem] md:text-[2rem] text-white font-bold text-left md:mt-4">
+          <span class="text-[1rem] md:text-[2rem] text-white font-bold text-left md:mt-4">
             {{ results?.Title ?? '' }} <span class="text-gray-400">({{ results?.Year ?? '' }})</span>
           </span>
           <div class="flex flex-col-reverse md:flex-col">
