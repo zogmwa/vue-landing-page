@@ -6,8 +6,9 @@
           <span class="text-xs">Menu</span>
         </button>
         <div class="flex align-items-center">
-          <a class="flex items-center" href="/">
-            <img :src="pageLogo" alt="logo" class="w-[150px]" />
+          <a class="flex items-center justify-center" href="/">
+            <img :src="pageLogo" alt="logo" class="hidden md:flex md:w-[150px]" />
+            <span class="flex md:hidden text-white">Mobile logo</span>
           </a>
           <a class="hidden md:flex px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#movies">
             <span class="ml-2">Movies</span>
