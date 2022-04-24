@@ -6,8 +6,8 @@
           <span class="text-xs">Menu</span>
         </button>
         <div class="flex align-items-center">
-          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="/">
-            <img :src="pageLogo" alt="logo" class="w-[150px]">
+          <a class="flex items-center" href="/">
+            <img :src="pageLogo" alt="logo" class="w-[150px]" />
           </a>
           <a class="hidden md:flex px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#movies">
             <span class="ml-2">Movies</span>
